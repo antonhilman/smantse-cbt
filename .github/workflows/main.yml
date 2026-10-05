@@ -32,6 +32,8 @@ jobs:
       - name: Build Debug APK
         run: |
           sed -i 's/rootProject.name = "SMANTSE CBT"/rootProject.name = "smantse-cbt"/' settings.gradle
+          sed -i 's/@mipmap\/ic_launcher/@android:drawable\/sym_def_app_icon/g' app/src/main/AndroidManifest.xml
+          sed -i '/android:roundIcon/d' app/src/main/AndroidManifest.xml
           touch app/proguard-rules.pro
           gradle assembleDebug --stacktrace
 
