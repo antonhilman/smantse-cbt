@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SMANTSE CBT</string>
+    <string name="target_url">https://smantse.web.id/login.php</string>
+    <string name="user_agent_suffix">SMANTSE-EXAMBRO/1.0</string>
+    <string name="msg_exit_title">Peringatan Ujian</string>
+    <string name="msg_exit_confirm">Apakah Anda yakin ingin keluar dari aplikasi ujian?</string>
+    <string name="btn_yes">Ya, Keluar</string>
+    <string name="btn_no">Batal</string>
+</resources>
